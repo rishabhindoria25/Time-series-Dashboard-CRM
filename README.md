@@ -27,5 +27,10 @@ To view the organization hierarchy, navigate to the Landing page. The hierarchy 
 ## Energy Data Visualization
 To view energy data visualizations, navigate to the "Dashboard" tab in the sidebar. The dashboard displays a chart for each IOT sensor for every entity. Users can select the time range for the chart using the date picker at the top of the page. To view more detailed information for a specific sensor, click on the sensor name in the chart legend. This will display a modal with a detailed chart and additional sensor information.
 
-## Credits
-This project was created by Rishabh Indoria and is licensed under the MIT License. If you have any questions or comments, please contact indoria.r@northeastern.edu.
+## Author
+
+[Rishabh Indoria](mailto:indoria.r@northeastern.edu)
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
