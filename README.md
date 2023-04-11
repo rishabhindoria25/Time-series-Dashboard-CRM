@@ -8,13 +8,13 @@ To install and run this project locally, please follow these steps:
 - Navigate to the project root directory and run npm install.
 - Set up the SQL and InfluxDB databases and tables according to the schema defined in the db/schema.sql and db/influx-schema.txt files, respectively.
 - Create a .env file in the root directory with the following variables:
--- DB_HOST: the hostname of your SQL database
--- DB_USER: the username for your SQL database
--- DB_PASSWORD: the password for your SQL database
--- INFLUX_HOST: the hostname of your InfluxDB database
--- INFLUX_USER: the username for your InfluxDB database
--- INFLUX_PASSWORD: the password for your InfluxDB database
--- NODE_ENV: set to development or production
++ DB_HOST: the hostname of your SQL database
++ DB_USER: the username for your SQL database
++ DB_PASSWORD: the password for your SQL database
++ INFLUX_HOST: the hostname of your InfluxDB database
++ INFLUX_USER: the username for your InfluxDB database
++ INFLUX_PASSWORD: the password for your InfluxDB database
++ NODE_ENV: set to development or production
 - Run npm run start to start the NodeJS server and serve the ReactJS frontend.
 - Navigate to http://localhost:3000 in your browser to view the project.
 
