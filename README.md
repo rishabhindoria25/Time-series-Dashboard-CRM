@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# CurrentCentral
+This full stack project maintains the organization hierarchy and creates dashboards for energy data visualization of different IOT sensors for every entity. The tech stack includes SQL (for client data), InfluxDB (for time-series IOT data), ReactJS (for front-end), ChartJS (for creating dashboard graphs), and NodeJS (for back-end).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+To install and run this project locally, please follow these steps:
 
-## Available Scripts
+- Clone this repository to your local machine.
+- Navigate to the project root directory and run npm install.
+- Set up the SQL and InfluxDB databases and tables according to the schema defined in the db/schema.sql and db/influx-schema.txt files, respectively.
+- Create a .env file in the root directory with the following variables:
+-- DB_HOST: the hostname of your SQL database
+-- DB_USER: the username for your SQL database
+-- DB_PASSWORD: the password for your SQL database
+-- INFLUX_HOST: the hostname of your InfluxDB database
+-- INFLUX_USER: the username for your InfluxDB database
+-- INFLUX_PASSWORD: the password for your InfluxDB database
+-- NODE_ENV: set to development or production
+- Run npm run start to start the NodeJS server and serve the ReactJS frontend.
+- Navigate to http://localhost:3000 in your browser to view the project.
 
-In the project directory, you can run:
+## Usage
+This project allows users to view energy data visualizations for different IOT sensors for every entity. The hierarchy of the organization can also be viewed and managed.
 
-### `npm start`
+## Organization Hierarchy
+To view the organization hierarchy, navigate to the Landing page. The hierarchy is displayed as a tree view, with each node representing an organization unit. Clicking on a node will expand or collapse its children.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Energy Data Visualization
+To view energy data visualizations, navigate to the "Dashboard" tab in the sidebar. The dashboard displays a chart for each IOT sensor for every entity. Users can select the time range for the chart using the date picker at the top of the page. To view more detailed information for a specific sensor, click on the sensor name in the chart legend. This will display a modal with a detailed chart and additional sensor information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+This project was created by [Your Name] and is licensed under the MIT License. If you have any questions or comments, please contact indoria.r@northeastern.edu.
