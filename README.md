@@ -1,36 +1,45 @@
-# CurrentCentral
-This full stack project maintains the organization hierarchy and creates dashboards for energy data visualization of different IOT sensors for every entity. The tech stack includes SQL (for client data), InfluxDB (for time-series IOT data), ReactJS (for front-end), ChartJS (for creating dashboard graphs), and NodeJS (for back-end).
+# CurrentCentral: Energy Data Visualization and Organization Hierarchy Management
 
-## Installation
-To install and run this project locally, please follow these steps:
+Welcome to the CurrentCentral project! This comprehensive full-stack application is designed to efficiently manage organization hierarchies and offer insightful dashboards for visualizing energy data collected from various IoT sensors across different entities. Through a combination of SQL, InfluxDB, ReactJS, ChartJS, and NodeJS technologies, we provide a seamless experience for users interested in exploring energy consumption trends.
 
-* Clone this repository to your local machine.
-* Navigate to the project root directory and run npm install.
-* Set up the SQL and InfluxDB databases and tables according to the schema defined in the db/schema.sql and db/influx-schema.txt files, respectively.
-* Create a .env file in the root directory with the following variables:
-  * DB_HOST: the hostname of your SQL database
-  * DB_USER: the username for your SQL database
-  * DB_PASSWORD: the password for your SQL database
-  * INFLUX_HOST: the hostname of your InfluxDB database
-  * INFLUX_USER: the username for your InfluxDB database
-  * INFLUX_PASSWORD: the password for your InfluxDB database
-  * NODE_ENV: set to development or production
-* Run npm run start to start the NodeJS server and serve the ReactJS frontend.
-* Navigate to http://localhost:3000 in your browser to view the project.
+## Installation Guide
 
-## Usage
-This project allows users to view energy data visualizations for different IOT sensors for every entity. The hierarchy of the organization can also be viewed and managed.
+To set up and run the CurrentCentral project on your local machine, please adhere to the following steps:
 
-## Organization Hierarchy
-To view the organization hierarchy, navigate to the Landing page. The hierarchy is displayed as a tree view, with each node representing an organization unit. Clicking on a node will expand or collapse its children.
+1. **Clone the Repository:** Begin by cloning this repository onto your local system.
+2. **Install Dependencies:** Navigate to the root directory of the project using your terminal and execute the command `npm install` to install all required dependencies.
+3. **Database Setup:** Set up both the SQL and InfluxDB databases and tables as per the defined schemas in the `db/schema.sql` and `db/influx-schema.txt` files respectively.
+4. **Environment Variables:** Create a `.env` file in the project's root directory. Configure the following variables within the file:
+   - `DB_HOST`: Hostname of your SQL database
+   - `DB_USER`: Username for your SQL database
+   - `DB_PASSWORD`: Password for your SQL database
+   - `INFLUX_HOST`: Hostname of your InfluxDB database
+   - `INFLUX_USER`: Username for your InfluxDB database
+   - `INFLUX_PASSWORD`: Password for your InfluxDB database
+   - `NODE_ENV`: Set to either "development" or "production"
+5. **Initiate the Server:** Launch the NodeJS server and deploy the ReactJS frontend by executing `npm run start` in your terminal.
+6. **Preview the Project:** Open your web browser and navigate to http://localhost:3000 to explore the project.
 
-## Energy Data Visualization
-To view energy data visualizations, navigate to the "Dashboard" tab in the sidebar. The dashboard displays a chart for each IOT sensor for every entity. Users can select the time range for the chart using the date picker at the top of the page. To view more detailed information for a specific sensor, click on the sensor name in the chart legend. This will display a modal with a detailed chart and additional sensor information.
+## Project Usage
 
-## Author
+The CurrentCentral project offers users the ability to visualize energy consumption data gathered from diverse IoT sensors across multiple entities. Moreover, it facilitates the management and visualization of an organization's hierarchical structure.
 
-[Rishabh Indoria](mailto:indoria.r@northeastern.edu)
+### Exploring the Organization Hierarchy
 
-## License
+To view the organization's hierarchical layout, simply access the "Landing" page. Here, an intuitive tree view presents each node as an organizational unit. By clicking on a node, you can expand or collapse its child units, offering a comprehensive overview.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+### Analyzing Energy Data Visualization
+
+For comprehensive energy data visualizations, navigate to the "Dashboard" section within the sidebar. This dashboard showcases charts for each IoT sensor associated with every entity. Users can tailor the chart's time range using the date picker situated at the page's top. Additionally, to gain deeper insights into a specific sensor's data, click on its name in the chart's legend. This action will unveil a modal window displaying a detailed chart alongside supplementary sensor information.
+
+## Project Author
+
+For any inquiries or feedback, feel free to contact the author of the project:
+
+**Rishabh Indoria**
+
+Email: indoria.r@northeastern.edu
+
+## License Information
+
+This project operates under the [MIT License](./LICENSE). To understand the rights and permissions, refer to the provided badge.
