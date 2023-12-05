@@ -1,10 +1,10 @@
-# CurrentCentral: Energy Data Visualization and Organization Hierarchy Management
+# Time series Data Visualization and Organization Hierarchy Management
 
-Welcome to the CurrentCentral project! This comprehensive full-stack application is designed to efficiently manage organization hierarchies and offer insightful dashboards for visualizing energy data collected from various IoT sensors across different entities. Through a combination of SQL, InfluxDB, ReactJS, ChartJS, and NodeJS technologies, we provide a seamless experience for users interested in exploring energy consumption trends.
+Welcome to the Time series Data Visualization and Organization Hierarchy Management project! This comprehensive full-stack application is designed to efficiently manage organization hierarchies and offer insightful dashboards for visualizing time series data collected from various IoT sensors across different entities. Through a combination of SQL, InfluxDB, ReactJS, ChartJS, and NodeJS technologies, we provide a seamless experience for users interested in exploring energy consumption trends.
 
 ## Installation Guide
 
-To set up and run the CurrentCentral project on your local machine, please adhere to the following steps:
+To set up and run the project on your local machine, please adhere to the following steps:
 
 1. **Clone the Repository:** Begin by cloning this repository onto your local system.
 2. **Install Dependencies:** Navigate to the root directory of the project using your terminal and execute the command `npm install` to install all required dependencies.
@@ -30,7 +30,7 @@ To view the organization's hierarchical layout, simply access the "Landing" page
 
 ### Analyzing Energy Data Visualization
 
-For comprehensive energy data visualizations, navigate to the "Dashboard" section within the sidebar. This dashboard showcases charts for each IoT sensor associated with every entity. Users can tailor the chart's time range using the date picker situated at the page's top. Additionally, to gain deeper insights into a specific sensor's data, click on its name in the chart's legend. This action will unveil a modal window displaying a detailed chart alongside supplementary sensor information.
+For comprehensive data visualizations, navigate to the "Dashboard" section within the sidebar. This dashboard showcases charts for each IoT sensor associated with every entity. Users can tailor the chart's time range using the date picker situated at the page's top. Additionally, to gain deeper insights into a specific sensor's data, click on its name in the chart's legend. This action will unveil a modal window displaying a detailed chart alongside supplementary sensor information.
 
 ## Project Author
 
